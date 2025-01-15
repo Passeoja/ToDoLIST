@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+    구현할 거:
+    +버튼 누르면 할 일 작성 페이지로 넘어감
+    , 작성 누르면 작성됨 슬라이드 하면 삭제됨-->
+
+
+    <header><h1>To Do List</h1></header>
+    <button id="add">할 일 추가하기</button>
+    <section>
+        <ul>
+            <li>
+                <div class="list">
+                    <button class="write">✏️</button>
+                    <button class="delet">🗑️</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <button id="allclear">모두 삭제하기</button>
+    </footer>
+
+
+    <script>
+        document.getElementById('add').addEventListener('click', function() {
+  window.location.href = 'add.html';
+});
+    </script>
+</body>
+</html>

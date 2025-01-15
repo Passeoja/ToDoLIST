@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(231, 231, 230);
+}
+button {
+    border: 1px;
+    border-radius: 5px;
+}
+
+#allclear {
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    display: none;
+}
+
+#add {
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.write, .delet {
+    background-color: white;
+    padding: none;
+    display: none;
+}
+
+#allclear:hover {background-color: rgba(255, 39, 39, 0.639);}
+#add:hover {box-shadow: 0px 0px 2px gray;}
+
+ul{
+    list-style-type: none;
+}
